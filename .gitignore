@@ -1,0 +1,16 @@
+# LibreLane / OpenROAD generated files
+runs/
+*.odb
+*.log
+*.tmp
+*.vcd
+*.sdf
+
+# Python / cache
+__pycache__/
+*.pyc
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/

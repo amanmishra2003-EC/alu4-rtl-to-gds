@@ -1,0 +1,58 @@
+ALU4 Physical Design Results
+============================
+
+Design:
+4-Bit ALU
+
+Technology:
+SKY130A
+
+Standard Cell Library:
+sky130_fd_sc_hd
+
+Flow:
+Verilog → Yosys → LibreLane → OpenROAD → GDSII
+
+Physical Design Results
+-----------------------
+
+Reported Design Area: 786 µm²
+Utilization: 70%
+
+Standard Cell Count: 71
+Standard Cell Area: 785.75 µm²
+
+Tap Cell Count: 14
+Tap Cell Area: 17.52 µm²
+
+Fill Cell Count: 103
+Fill Cell Area: 322.81 µm²
+
+Total Physical Cell Count: 188
+Total Physical Cell Area: 1126.08 µm²
+
+Final Outputs
+-------------
+
+Final ODB:
+alu4.odb
+
+Final DEF:
+alu4.def
+
+Final GDSII:
+alu4.gds
+
+Notes
+-----
+
+The ALU4 design is combinational and does not contain
+registers or flip-flops. Therefore, a meaningful clock-tree
+synthesis (CTS) stage is not applicable.
+
+Standalone OpenROAD timing analysis was not used for the
+reported results because the OpenROAD session did not have
+Liberty timing libraries loaded.
+
+The reported design area should not be interpreted as the
+complete die area.
